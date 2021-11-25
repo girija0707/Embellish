@@ -1,5 +1,5 @@
 name: Mark Stale issues
-Mark stale pull requests
+
 
 
 on:
@@ -21,7 +21,7 @@ jobs:
         remove-stale-when-updated: true
 
 
-    runs-on: ubuntu-latest
+   
 
     steps:
     - uses: actions/stale@v3.0.11
